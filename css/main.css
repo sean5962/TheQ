@@ -1,0 +1,205 @@
+/********************************************
+GENERAL STYLE
+********************************************/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+* {
+  font-family: 'Bellefair', sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/********************************************
+COLORS AND FONTS
+********************************************/
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.3em;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.15em;
+}
+
+h3 {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.2em;
+}
+
+main p {
+  font-size: .7em;
+}
+
+h5 {
+  font-size: .8em;
+}
+
+header {
+  background: #eee;
+}
+
+#menu-button {
+  border-bottom: 3px solid green;
+}
+
+#menu-button:hover {
+  color: #437246;
+}
+
+#about-button {
+  border-bottom: 3px solid white;
+}
+
+#about-button:hover {
+  color: #888;
+}
+
+#contact-button {
+  border-bottom: 3px solid red;
+}
+
+#contact-button:hover{
+  color: #962121;
+}
+
+footer {
+  background: #eee;
+}
+
+
+
+
+/********************************************
+NAV
+********************************************/
+header {
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 15px 5px 25px;
+}
+
+h1 {
+  margin: 0 auto 0;
+  padding-top: 5px;
+}
+
+h2 {
+  margin: 0 0 5px;
+}
+
+header nav ul li a {
+  padding: 0 7px;
+}
+
+
+/********************************************
+BODY
+********************************************/
+h3 {
+
+  width: 70%;
+  margin: 20px auto 25px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+h5 {
+  margin: 0;
+}
+
+.item {
+  float: left;
+}
+
+.food {
+  margin: 1.2em 0;
+}
+
+.food img {
+  width: 20%;
+}
+
+.food div {
+  width: 75%;
+  padding-right: 16%;
+  padding-left: 3%;
+}
+
+.price {
+  width: 5%;
+}
+
+main section {
+  padding: 0;
+  margin: 50px auto;
+}
+
+#chicken {
+  margin-top: 30px;
+}
+
+
+
+/*************************************
+FOOTER
+********************************************/
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 25px 5px 20px;
+}
+
+footer nav ul li a {
+  padding: 0 7px;
+}
+footer p {
+  font-size: .5em;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+#returnToTop {
+  font-size: .75em;
+}
+
+/********************************************
+CLEAR-FIX
+********************************************/
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
